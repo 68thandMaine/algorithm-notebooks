@@ -2,6 +2,32 @@
 
 A collection of algorithm solutions organized by data structures, implemented in TypeScript using Deno notebooks.
 
+## Table of Contents
+
+- [Setup](#setup)
+- [Algorithms by Category](#algorithms-by-category)
+  - [Linked Lists](linked-lists/README.md)
+  - [Searching](searching/README.md)
+  - [Sorting](sorting/README.md)
+- [Project Structure](#project-structure)
+- [File Naming Convention](#file-naming-convention)
+- [Notebook Format](#notebook-format)
+- [Running Notebooks](#running-notebooks)
+- [Best Practices](#best-practices)
+- [Contributing](#contributing)
+- [Resources](#resources)
+
+## Algorithms by Category
+
+### [Linked Lists](linked-lists/README.md)
+Solutions for linked list problems including adding numbers represented as linked lists and removing nodes from specific positions.
+
+### [Searching](searching/README.md)
+Searching algorithms including binary search implementations on sorted arrays.
+
+### [Sorting](sorting/README.md)
+Sorting algorithms including insertion sort and selection sort implementations.
+
 ## Setup
 
 ### Prerequisites
@@ -38,23 +64,18 @@ This will start a notebook server that you can access through your browser.
 ```
 algorithm_notebooks/
 ├── README.md
-├── arrays/
-│   ├── two_sum.ipynb
-│   ├── merge_intervals.ipynb
-│   └── ...
-├── linked_lists/
-│   ├── reverse_linked_list.ipynb
-│   ├── detect_cycle.ipynb
-│   └── ...
-├── trees/
-│   ├── binary_tree_traversal.ipynb
-│   ├── lowest_common_ancestor.ipynb
-│   └── ...
-├── dynamic_programming/
-│   ├── fibonacci.ipynb
-│   ├── knapsack.ipynb
-│   └── ...
-└── ...
+├── linked-lists/
+│   ├── README.md
+│   ├── add_two_numbers.ipynb
+│   ├── ch_1_add_two_numbers.ipynb
+│   └── ch_2_remove_nth_node_from_end_of_list.ipynb
+├── searching/
+│   ├── README.md
+│   └── binary_search.ipynb
+└── sorting/
+    ├── README.md
+    ├── insert_sort.ipynb
+    └── select_sort.ipynb
 ```
 
 ## File Naming Convention

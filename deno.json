@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": true
+  },
+  "imports": {
+    "@/": "./",
+    "@/linked-lists/": "./linked-lists/",
+    "@/searching/": "./searching/",
+    "@/sorting/": "./sorting/",
+    "@/utils/": "./utils/",
+    "@createLinkedList": "./linked-lists/utils/createLinkedList.ts"
+  },
+  "tasks": {
+    "notebook": "deno notebook",
+    "dev": "deno notebook --port 3000"
+  }
+}
