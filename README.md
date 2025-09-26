@@ -5,10 +5,12 @@ A collection of algorithm solutions organized by data structures, implemented in
 ## Table of Contents
 
 - [Setup](#setup)
-- [Algorithms by Category](#algorithms-by-category)
-  - [Linked Lists](linked-lists/README.md)
-  - [Searching](searching/README.md)
-  - [Sorting](sorting/README.md)
+- [Code Concepts](#code-concepts)
+  - [Arrays](#arrays)
+  - [Linked Lists](#linked-lists)
+  - [Searching](#searching)
+  - [Sorting](#sorting)
+  - [Strings](#strings)
 - [Project Structure](#project-structure)
 - [File Naming Convention](#file-naming-convention)
 - [Notebook Format](#notebook-format)
@@ -17,16 +19,44 @@ A collection of algorithm solutions organized by data structures, implemented in
 - [Contributing](#contributing)
 - [Resources](#resources)
 
-## Algorithms by Category
+## Code Concepts
 
-### [Linked Lists](linked-lists/README.md)
-Solutions for linked list problems including adding numbers represented as linked lists and removing nodes from specific positions.
+### Arrays
 
-### [Searching](searching/README.md)
-Searching algorithms including binary search implementations on sorted arrays.
+| Chapter | Name |
+|---------|------|
+| 1 | [Two Sum](arrays/ch_1_two_sum.ipynb) |
+| 2 | [Length of Longest Substring](arrays/ch_2_length_of_longest_substring.ipynb) |
 
-### [Sorting](sorting/README.md)
-Sorting algorithms including insertion sort and selection sort implementations.
+### Linked Lists
+
+| Chapter | Name |
+|---------|------|
+| 1 | [Add Two Numbers](linked-lists/ch_1_add_two_numbers.ipynb) |
+| 2 | [Remove Nth Node From End of List](linked-lists/ch_2_remove_nth_node_from_end_of_list.ipynb) |
+| 3 | [Linked List Cycle](linked-lists/ch_3_cycles.ipynb) |
+| 4 | [Reverse Linked List](linked-lists/ch_4_reverse_linked_list.ipynb) |
+| 5 | [Insertion Sort List](linked-lists/ch_5_inseration_sort.ipynb) |
+
+### Searching
+
+| Chapter | Name |
+|---------|------|
+| 1 | [Binary Search](searching/binary_search.ipynb) |
+
+### Sorting
+
+| Chapter | Name |
+|---------|------|
+| 1 | [Insertion Sort](sorting/insert_sort.ipynb) |
+| 2 | [Merge Sorted Array](sorting/merge_sort.ipynb) |
+| 3 | [Selection Sort](sorting/select_sort.ipynb) |
+
+### Strings
+
+| Chapter | Name |
+|---------|------|
+| 1 | [Longest Substring Without Repeating Characters](strings/longest_substring_without_repeating_chars.ipynb) |
 
 ## Setup
 
